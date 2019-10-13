@@ -1,11 +1,11 @@
 # Gender-Classification
 Calssifiying the gender of humans using Convolutional Neural Networks in Tensorflow using Keras API  
-
+  
 The project contains two different parts:  
-
+  
 ### Train Classifier
-In this part I trained a CNN on cropped faces of celebrities downloaded from google images and cropped.  
-I used **2000** images (1000 in each class) for training and **200** images for validation set.  
+In this part I trained a CNN on cropped faces of celebrities downloaded from google images.  
+I used **2000** images (1000 in each class) for training and **200** images for validating the classifier.  
 I used the ``ImageDataGenerator`` class from **Keras** to load the images.  
 The model achieves about **99%** Train accuracy and around **95%** validation accuracy.  
 Then I used 20 images which are stored in **Test** folder to test the model.  
