@@ -19,7 +19,7 @@ The data I used to train the model can be downloaded from this [link](https://gi
 In this part I classified the gender of person in Un-cropped images.  
 I used the ``detect_face()`` method from opencv to get the coordinates of the faces that are available in the image.  
 Then I used my pre-trained model to classify the gender of each of the faces in the image.  
-I drew a bounding box around the faces and labelled them using **CV2**.
+I drew bounding box around the faces and labelled them using **CV2**.  
 The output images are displayed in the console using ``cv2.imshow()`` and also saved in the **output image** folder.
   
   Here is an example of the output files:  
