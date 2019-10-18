@@ -44,4 +44,6 @@ I got around **13 fps** output in the video. If you can help me improve the fram
   
 Here is a demo of the output video:  
   
-  ![example-video-from-cam.gif](https://github.com/Neeraj-Prakash/Gender-Classification/blob/master/Classify%20from%20Detected/example%20of%20video%20from%20cam.gif "Example Video from cam")
+  ![example-video-from-cam.gif](https://github.com/Neeraj-Prakash/Gender-Classification/blob/master/Classify%20from%20Detected/example%20of%20video%20from%20cam.gif "Example Video from cam")  
+    
+**© Copyright Neeraj Prakash**
