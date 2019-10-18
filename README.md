@@ -16,12 +16,16 @@ The data I used to train the model can be downloaded from this [link](https://gi
   
   
 ### Classify From Detected
-In this part I classified the gender of person in Un-cropped images.  
-I used the ``detect_face()`` method from opencv to get the coordinates of the faces that are available in the image.  
+In this part I classified the gender of person by using face detection from open-cv.  
+It contains two files:  
+1. Classify from image      2. Classify from cam  
+
+#### Classify from image
+I loaded the image and used the ``detect_face()`` method from opencv to get the coordinates of the faces that are available in the image.  
 Then I used my pre-trained model to classify the gender of each of the faces in the image.  
 I drew bounding box around the faces and labelled them using **CV2**.  
 The output images are displayed in the console using ``cv2.imshow()`` and also saved in the **output image** folder.
   
   Here is an example of the output files:  
-  ![text](https://github.com/Neeraj-Prakash/Gender-Classification/blob/master/Classify%20from%20Detected/output%20image/gender_detection3.jpg "Example of bounding box and label")
+  [![gender-detection3.png](https://i.postimg.cc/bvkCkZJL/gender-detection3.png "Example of bounding box and label")](https://postimg.cc/bGY9jN12)
   
